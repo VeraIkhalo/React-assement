@@ -15,7 +15,7 @@ const Stories = () => {
               <div style={{position:'relative'}}>
               <label>Upload your Picture</label>
               <br/>
-              <input type='image/text' placeholder='Choose Image'className={classes.input}/>
+              <input required type='image/text' placeholder='Choose Image'className={classes.input} />
               <label htmlFor="fileInput">
               <AttachmentIcon className={classes.icon} />
               </label>
@@ -28,11 +28,11 @@ const Stories = () => {
               
               <label className={classes.label}>First Name</label>
               <br/>
-              <input type='text'className={classes.input} required/>
+              <input required type='text'className={classes.input} />
               <br/>
               <label className={classes.label}>Last Name</label>
               <br/>
-              <input type='text' className={classes.input} required/>
+              <input  required type='text' className={classes.input} />
               <br/>
               <label className={classes.label}>Share your story</label>
               <br/>

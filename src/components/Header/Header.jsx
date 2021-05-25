@@ -15,7 +15,7 @@ function NavBar() {
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
           <img src={Logo} alt=""  style={{width:'190px'}} />
-            <i className="fas fa-code"></i>
+            
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -76,12 +76,12 @@ function NavBar() {
             </li>
           </ul>
           <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
+            <i style={{transform :'translateY(-50%)'}} className={click ? "fas fa-times" : "fas fa-bars"}></i>
           </div>
         </div>
       </nav>
-      <hr/>  
-      <div className="nav-container"style={{fontSize:'1rem'}}>
+     
+      <div className="nav-container"style={{fontSize:'1rem',backgroundColor:'white'}}>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <NavLink
@@ -150,9 +150,7 @@ function NavBar() {
               </NavLink>
             </li>
           </ul>
-          <div className="nav-icon" onClick={handleClick}>
-            <i className={click ? "fas fa-times" : "fas fa-bars"}></i>
-          </div>
+          
         </div> 
     </>
   );

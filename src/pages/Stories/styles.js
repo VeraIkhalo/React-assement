@@ -2,8 +2,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(() => ({
  input: {
-     width:'95%',
-     padding:20,
+     width:'100%',
+     padding:15,
      fontSize:20,
      marginBottom: 20,
      outline:'none',
@@ -22,10 +22,11 @@ export default makeStyles(() => ({
      fontSize:20,
      width:'70%',
      margin:'auto',
-     paddingLeft:70,
-     paddingRight:70,
      paddingTop: 20,
-     paddingBottom: 20
+     paddingBottom: 20,
+     "@media (max-width: 653px)": {
+      fontSize:15   
+    },
  },
  button: {
     width: 253,
@@ -44,14 +45,22 @@ export default makeStyles(() => ({
     },
     icon: {
         position:'absolute',
-        right:40,
+        right:60,
         bottom:40,
-        cursor: 'pointer'
+        cursor: 'pointer',
+        "@media (max-width: 653px)": {
+            display:'none'        },
+      
     },
     interact: {
         display:'flex',
         justifyContent:'space-between',
-        marginBottom: 10
+        marginBottom: 10,
+        "@media (max-width: 900px)": {
+            display:'flex',
+            flexDirection: 'column',
+          },
+      
     },
     firstlastname: {
         display: 'flex',

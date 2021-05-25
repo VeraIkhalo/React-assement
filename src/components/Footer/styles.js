@@ -26,13 +26,13 @@ export default makeStyles(() => ({
         outline:'none',
         color: 'white',
         padding:10,
-        width:'55%',
+        width:'70%',
         textDecoration: 'none',
         border:'none'
     },
     button: {
         position: 'absolute',
-        right:210,
+        right:160,
         top:1,
         fontFamily: 'Roboto',
         fontWeight: 500,
@@ -42,6 +42,10 @@ export default makeStyles(() => ({
         '&:hover': {
             background: "grey",
             },
+        "@media (max-width: 900px)": {
+                right:90
+              },
+              
     },
    footerheading: {
     fontFamily: 'Roboto',
@@ -50,7 +54,8 @@ export default makeStyles(() => ({
     color: '#FFFFFF'
     },
     image: {
-        width:'100%'
+        width:'100%',
+        transform:'translateY(-10%)'
     },
    list: {
      fontFamily: 'Roboto',

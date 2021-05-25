@@ -20,7 +20,12 @@ export default makeStyles(() => ({
     backgroundColor:'black',
     marginTop:0,
     paddingLeft : 10,
-    paddingRight : 10
+    paddingRight : 10,
+    "@media (max-width: 900px)": {
+      display:'flex',
+      flexDirection: 'column-reverse'
+    },
+
     },
 
   headingtolu: {

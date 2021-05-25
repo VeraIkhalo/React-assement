@@ -7,7 +7,6 @@ import { NavLink } from "react-router-dom";
 
 const Stories = () => {
     const classes = useStyles();
-
     return (
       <main style={{paddingTop:90}} > 
           <Grid container justify="center">
