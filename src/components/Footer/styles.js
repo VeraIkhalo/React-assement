@@ -46,7 +46,7 @@ export default makeStyles(() => ({
    footerheading: {
     fontFamily: 'Roboto',
     fontWeight: 'bold',
-    fontSize: 16,
+    fontSize: 20,
     color: '#FFFFFF'
     },
     image: {
@@ -59,10 +59,10 @@ export default makeStyles(() => ({
      color: '#FFFFFF',
      cursor:'pointer'
    },
-   icon: {
-       borderRadius: 50,
-       border:'1px solid white',
-       padding:10
+   Icon: {
+       borderRadius: '50%',
+       border:'2px solid white',
+       padding:20
    }
   
 }));

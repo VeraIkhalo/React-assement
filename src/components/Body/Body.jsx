@@ -23,7 +23,7 @@ const Body = () => {
 
     return (
       <main >
-        <Grid container justify="center" style={{paddingTop:70}} className={classes.amazing}>
+        <Grid container justify="center" className={classes.amazing}>
             <Grid item xs={12} sm={6} md={5} lg={5} >
                 <Typography className={classes.heading1} variant="h2"style={{paddingTop:100}}>Amazing</Typography>
                <Typography variant="h2"className={classes.heading1}>Experiences from Our Wonderful Customers</Typography>

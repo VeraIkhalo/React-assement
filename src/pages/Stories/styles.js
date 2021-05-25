@@ -24,7 +24,8 @@ export default makeStyles(() => ({
      margin:'auto',
      paddingLeft:70,
      paddingRight:70,
-     paddingTop: 20
+     paddingTop: 20,
+     paddingBottom: 20
  },
  button: {
     width: 253,
